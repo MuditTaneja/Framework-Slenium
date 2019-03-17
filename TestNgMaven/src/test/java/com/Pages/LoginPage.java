@@ -14,6 +14,7 @@ public class LoginPage {
 		
 		 this.driver =ldriver;
 	}
+	// this is my new commit to git 
 	
 	@FindBy(css="#agree")	 WebElement agreeButton;
 	@FindBy(css="#Btn_Submit") WebElement submitBtn;
