@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TktSuite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.testCases.MyTestCaseTKt"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- TktSuite -->

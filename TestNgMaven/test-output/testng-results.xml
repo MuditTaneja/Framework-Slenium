@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[inside the base class running before suite]]>
+    </line>
+    <line>
+      <![CDATA[inside the base class running before class]]>
+    </line>
+    <line>
+      <![CDATA[inside the base class >> calling login fun from browser factory]]>
+    </line>
+    <line>
+      <![CDATA[inside the base class >> after method >> flushing report ]]>
+    </line>
+    <line>
+      <![CDATA[inside the base class >> after class>> closing browser]]>
+    </line>
+  </reporter-output>
+  <suite name="TktSuite" duration-ms="55570" started-at="2019-03-17T13:19:57Z" finished-at="2019-03-17T13:20:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="55570" started-at="2019-03-17T13:19:57Z" finished-at="2019-03-17T13:20:52Z">
+      <class name="com.testCases.MyTestCaseTKt">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.testCases.MyTestCaseTKt@3e6fa38a]" name="setUpSuite" is-config="true" duration-ms="875" started-at="2019-03-17T18:49:56Z" finished-at="2019-03-17T18:49:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[inside the base class running before suite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testCases.MyTestCaseTKt@3e6fa38a]" name="setUp" is-config="true" duration-ms="9332" started-at="2019-03-17T18:49:57Z" finished-at="2019-03-17T18:50:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[inside the base class running before class]]>
+            </line>
+            <line>
+              <![CDATA[inside the base class >> calling login fun from browser factory]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginAppication()[pri:0, instance:com.testCases.MyTestCaseTKt@3e6fa38a]" name="loginAppication" duration-ms="44796" started-at="2019-03-17T18:50:06Z" finished-at="2019-03-17T18:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAppication -->
+        <test-method status="PASS" signature="flushReoprts()[pri:0, instance:com.testCases.MyTestCaseTKt@3e6fa38a]" name="flushReoprts" is-config="true" duration-ms="749" started-at="2019-03-17T18:50:51Z" finished-at="2019-03-17T18:50:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[inside the base class >> after method >> flushing report ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- flushReoprts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.MyTestCaseTKt@3e6fa38a]" name="tearDown" is-config="true" duration-ms="660" started-at="2019-03-17T18:50:51Z" finished-at="2019-03-17T18:50:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[inside the base class >> after class>> closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.MyTestCaseTKt -->
+    </test> <!-- Test -->
+  </suite> <!-- TktSuite -->
+</testng-results>
